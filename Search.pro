@@ -8,4 +8,6 @@ SOURCES += \
 
 HEADERS += \
     seqsearch.h \
-    binsearch.h
+    binsearch.h \
+    indexsearch.h \
+    seqlist.h
