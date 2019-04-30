@@ -7,4 +7,5 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    seqsearch.h
+    seqsearch.h \
+    binsearch.h
