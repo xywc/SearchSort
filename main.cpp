@@ -5,6 +5,7 @@
 #include "hashsearch.h"
 
 #include "insertionsort.h"
+#include "selectionsort.h"
 int main()
 {
     //KeyType key[]={9,12,14,22,35,38,42,44,47,48,58,60,77,78,80,82};
@@ -82,7 +83,11 @@ int main()
 //    hashsearch.Display_HashList();
 
     //≤Â»Î≈≈–Ú-----------------------------------------------------
-    InsertionSort insertionsort(key,n);
-    insertionsort.Insertion_Sort();
+//    InsertionSort insertionsort(key,n);
+//    insertionsort.Insertion_Sort();
+
+    //—°‘Ò≈≈–Ú-----------------------------------------------------
+    SelectionSort selectionsort(key,n);
+    selectionsort.Selection_Sort();
     return 0;
 }
