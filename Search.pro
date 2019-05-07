@@ -12,4 +12,5 @@ HEADERS += \
     indexsearch.h \
     seqlist.h \
     bitree.h \
-    hashsearch.h
+    hashsearch.h \
+    insertionsort.h
