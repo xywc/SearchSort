@@ -6,10 +6,11 @@
 
 #include "insertionsort.h"
 #include "selectionsort.h"
+#include "swapsort.h"
 int main()
 {
     //KeyType key[]={9,12,14,22,35,38,42,44,47,48,58,60,77,78,80,82};
-    KeyType key[]={9,22,12,14,35,42,44,38,48,60,58,47,78,80,77,82};
+    KeyType key[]={9,22,12,14,35,44,42,80,38,48,60,58,47,78,77,82};
     KeyType kx;
     int n=16,i;
 
@@ -87,7 +88,11 @@ int main()
 //    insertionsort.Insertion_Sort();
 
     //—°‘Ò≈≈–Ú-----------------------------------------------------
-    SelectionSort selectionsort(key,n);
-    selectionsort.Selection_Sort();
+//    SelectionSort selectionsort(key,n);
+//    selectionsort.Selection_Sort();
+
+    //Ωªªª≈≈–Ú-----------------------------------------------------
+    SwapSort swapsort(key,n);
+    swapsort.Bubble_Sort();
     return 0;
 }

@@ -14,4 +14,5 @@ HEADERS += \
     bitree.h \
     hashsearch.h \
     insertionsort.h \
-    selectionsort.h
+    selectionsort.h \
+    swapsort.h
