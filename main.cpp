@@ -7,6 +7,7 @@
 #include "insertionsort.h"
 #include "selectionsort.h"
 #include "swapsort.h"
+#include "mergesort.h"
 int main()
 {
     //KeyType key[]={9,12,14,22,35,38,42,44,47,48,58,60,77,78,80,82};
@@ -92,7 +93,11 @@ int main()
 //    selectionsort.Selection_Sort();
 
     //Ωªªª≈≈–Ú-----------------------------------------------------
-    SwapSort swapsort(key,n);
-    swapsort.Bubble_Sort();
+//    SwapSort swapsort(key,n);
+//    swapsort.Bubble_Sort();
+
+    //πÈ≤¢≈≈–Ú-----------------------------------------------------
+    MergeSort mergesort(key,n);
+    mergesort.Merge_Sort();
     return 0;
 }

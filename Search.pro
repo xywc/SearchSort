@@ -15,4 +15,5 @@ HEADERS += \
     hashsearch.h \
     insertionsort.h \
     selectionsort.h \
-    swapsort.h
+    swapsort.h \
+    mergesort.h \
