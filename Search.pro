@@ -17,3 +17,4 @@ HEADERS += \
     selectionsort.h \
     swapsort.h \
     mergesort.h \
+    radixsort.h

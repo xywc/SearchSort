@@ -8,6 +8,7 @@
 #include "selectionsort.h"
 #include "swapsort.h"
 #include "mergesort.h"
+#include "radixsort.h"
 int main()
 {
     //KeyType key[]={9,12,14,22,35,38,42,44,47,48,58,60,77,78,80,82};
@@ -97,7 +98,12 @@ int main()
 //    swapsort.Bubble_Sort();
 
     //¹é²¢ÅÅÐò-----------------------------------------------------
-    MergeSort mergesort(key,n);
-    mergesort.Merge_Sort();
+//    MergeSort mergesort(key,n);
+//    mergesort.Merge_Sort();
+
+    //»ùÊýÅÅÐò-----------------------------------------------------
+    int radixkey[]={278,109,63,930,589,184,505,269,8,83};
+    RadixSort radixsort(radixkey,3,10);
+    radixsort.Radix_Sort();
     return 0;
 }
